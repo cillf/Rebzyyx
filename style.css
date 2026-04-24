@@ -3,6 +3,8 @@ body {
 }
 
 .header {
+  padding-top: 5px;
+  padding-left: 10px;
   font-weight: 900;
   font-size: 56px;
 }
