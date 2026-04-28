@@ -2,10 +2,29 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.outermain {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  text-align: center; 
+}
+
 .main {
   display: flex;
-  align-items: center; 
+  align-items: center;
   gap: 20px;
+}
+
+.mtxt {
+  flex: 1; 
+}
+
+.side-image {
+  max-width: 576px; 
+  height: auto;
 }
 
 .header {
