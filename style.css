@@ -3,9 +3,9 @@ body {
 }
 
 .main {
-  position: absolute;
-  top: 179;
-  left: 64;
+  display: flex;
+  align-items: center; 
+  gap: 20px;
 }
 
 .header {
