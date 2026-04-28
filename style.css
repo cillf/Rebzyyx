@@ -2,6 +2,12 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.main {
+  position: absolute;
+  top: 179;
+  left: 64;
+}
+
 .header {
   
   margin-left: 10px;
