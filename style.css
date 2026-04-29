@@ -15,6 +15,7 @@ body {
 }
 
 .main {
+  padding-right: 25%;
   display: flex;
   align-items: center;
   gap: 20px;
