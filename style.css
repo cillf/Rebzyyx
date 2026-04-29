@@ -1,5 +1,4 @@
 body {
-  border-radius: 5%;
   font-family: 'Inter', sans-serif;
 }
 
@@ -30,10 +29,12 @@ body {
 }
 
 .side-image {
-  object-fit: cover;
+
   max-width: 576px; 
   height: auto;
   padding-right: 25%;
+  object-fit: cover;
+  border-radius: 5%;
 }
 
 .header {
