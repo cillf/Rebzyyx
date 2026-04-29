@@ -21,6 +21,7 @@ body {
 }
 
 .mtxt {
+  padding-left: 25%;
   font-weight: 500;
   font-size: 24px;
   flex: 1; 
