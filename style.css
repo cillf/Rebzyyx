@@ -28,16 +28,16 @@ body {
   flex: 1; 
 }
 .imgd {
-  object-fit: cover;
-  border-radius: 25px;
+  border-radius: 5%;
+  overflow: hidden;
 }
 .side-image {
 
-  max-width: 576px; 
+  max-width: 400px; 
   height: auto;
   padding-right: 25%;
-  object-fit: cover;
   border-radius: 25px;
+  object-fit: cover;
 }
 
 .header {
