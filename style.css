@@ -1,5 +1,30 @@
+html {
+  background-color:black;
+}
 body {
+
   font-family: 'Inter', sans-serif;
+  background-clip: content-box; 
+  background-color: #000000;
+  margin: 0 20%;
+}
+@media screen and (max-width: 1200px) {
+  .main {
+    flex-direction: column;
+  }
+  .images {
+    flex-direction: column;
+  }
+}
+.body2 {
+  background-color: #ffffff;
+  clip-path: inset(0 0% 0 0% round 25px);
+  padding: 0 4%;
+  padding-top: 1%;
+}
+body img {
+  border-radius: 5%;
+  height: auto;
 }
 
 .outermain {
@@ -29,11 +54,9 @@ body {
 }
 .imgd {
   border-radius: 5%;
-  overflow: hidden;
+
 }
 .side-image {
-
-  max-width: 400px; 
   height: auto;
   padding-right: 25%;
   border-radius: 25px;
@@ -45,4 +68,30 @@ body {
   margin-left: 10px;
   font-weight: 900;
   font-size: 56px;
+}
+
+.bottomSec {
+  border-radius: 25px;
+  background-color: #00000008; 
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 1%;
+  display: flex;
+  gap: 2%;
+  align-items: anchor-center;
+  width:200;
+  height:auto;
+}
+
+.bottomtxt {
+  font-weight: 900;
+  font-size:x-large;
+}
+.images {
+  padding-top: 2%;
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1%;
 }
