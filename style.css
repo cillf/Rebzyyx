@@ -16,6 +16,10 @@ body {
     flex-direction: column;
   }
 }
+a {
+  color: black;
+  text-decoration:none;
+}
 .body2 {
   background-color: #ffffff;
   clip-path: inset(0 0% 0 0% round 25px);
@@ -90,8 +94,26 @@ body img {
 .images {
   padding-top: 2%;
   display: flex;
-  gap: 2%;
+  gap: 3%;
   justify-content: center;
   align-items: center;
   padding-bottom: 1%;
+}
+
+.images * {
+  transition: all 0.25s ease;
+}
+
+.images *:hover {
+  outline:5px solid #01086599;
+  transform: scale(1.06);
+}
+
+a * {
+  transition: all 0.25s ease;
+}
+
+a *:hover {
+  padding-left: 3%;
+  transform: scale(1.06);
 }
