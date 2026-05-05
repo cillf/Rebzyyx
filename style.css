@@ -21,6 +21,7 @@ a {
   text-decoration:none;
 }
 .body2 {
+  transition: all 0.25s;
   background-color: #ffffff;
   clip-path: inset(0 0% 0 0% round 25px);
   padding: 0 4%;
@@ -94,7 +95,9 @@ body img {
 .images {
   padding-top: 2%;
   display: flex;
+  column-gap: 3%;
   gap: 3%;
+  
   justify-content: center;
   align-items: center;
   padding-bottom: 1%;
@@ -103,17 +106,34 @@ body img {
 .images * {
   transition: all 0.25s ease;
 }
+.images img {
+  margin: 3% 0;
+}
 
-.images *:hover {
+.images img:hover {
   outline:5px solid #01086599;
+  outline-offset: -5px;
   transform: scale(1.06);
 }
 
-a * {
-  transition: all 0.25s ease;
-}
-
-a *:hover {
+.A-header *:hover {
+  transition: all 0.25s;
   padding-left: 3%;
   transform: scale(1.06);
+}
+.images a {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 0;       
+  text-decoration: none;
+  width: 40%;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+
+.images a img {
+  display: block;
+  width: 100%;          
+  height: auto;
 }
