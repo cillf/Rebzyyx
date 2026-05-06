@@ -6,18 +6,18 @@ window.addEventListener("DOMContentLoaded", () => {
   container.textContent = "";
   
   let index = 0;
-  let currentSpeed = 20;
+  let currentSpeed = 25;
   let fastMode = false;
 
   setTimeout(() => {
     fastMode = true;
-  }, 500);
+  }, 800);
 
   function type() {
     if (index < fullText.length) {
       container.textContent += fullText.charAt(index);
 
-      let delay = fastMode ? 3 : currentSpeed;
+      let delay = fastMode ? 6 : currentSpeed;
 
       index++;
       setTimeout(type, delay);
