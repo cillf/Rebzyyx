@@ -116,7 +116,7 @@ body img {
   transform: scale(1.06);
 }
 
-.A-header *:hover {
+.A-header h1:hover {
   transition: all 0.25s;
   padding-left: 3%;
   transform: scale(1.06);
