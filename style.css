@@ -6,6 +6,17 @@ html {
   from { opacity: 0.1; }
   to   { opacity: 1; }
 }
+
+
+.inter-text::after {
+  content: '|';
+  animation: blink 0.7s infinite;
+  color: #000000;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
 body {
 
   animation: fadeIn 0.5s ease-in forwards;
